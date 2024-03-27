@@ -1,9 +1,9 @@
-const Home = () => {
+const Join = () => {
   return (
     <div className="w-full flex flex-col items-center">
-      <p>Home</p>
+      <p>Join</p>
     </div>
   );
 };
 
-export default Home;
+export default Join;
