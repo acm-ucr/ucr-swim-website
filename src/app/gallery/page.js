@@ -1,9 +1,9 @@
-const Home = () => {
+const Gallery = () => {
   return (
     <div className="w-full flex flex-col items-center">
-      <p>Home</p>
+      <p>Gallery</p>
     </div>
   );
 };
 
-export default Home;
+export default Gallery;

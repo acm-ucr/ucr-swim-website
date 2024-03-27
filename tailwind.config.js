@@ -7,7 +7,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        swim: {
+          navy: "#334A7E",
+          blue: "#B2C1E6",
+        },
+      },
+      fontFamily: {
+        urbanist: "var(--urbanist-font)",
+      },
+    },
   },
   plugins: [],
 };
