@@ -1,5 +1,9 @@
 const SwimOutlet = () => {
-  return <div>SwimOutlet</div>;
+  return (
+    <div className="">
+      <p>SwimOutlet</p>
+    </div>
+  );
 };
 
 export default SwimOutlet;
