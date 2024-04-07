@@ -4,7 +4,7 @@ import waveBottom from "@/public/waveBottom.webp";
 
 const Practice = () => {
   return (
-    <div className="h-[550px] bg-gradient-to-r from-swim-blue-200 to-swim-blue-300">
+    <div className="h-[550px] bg-gradient-to-r from-swim-blue-100 to-swim-blue-300">
       <div className="container grid grid-cols-2 gap-20">
         <Image src={practice} alt="practice" className="" />
         <div className="mt-24 font-urbanist text-white ">
