@@ -1,5 +1,9 @@
 const Practice = () => {
-  return <div>Practice</div>;
+  return (
+    <div className="">
+      <p>Practice</p>
+    </div>
+  );
 };
 
 export default Practice;

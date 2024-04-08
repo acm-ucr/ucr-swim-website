@@ -1,5 +1,9 @@
 const Connected = () => {
-  return <div>Connected</div>;
+  return (
+    <div className="">
+      <p>Connected</p>
+    </div>
+  );
 };
 
 export default Connected;

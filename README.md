@@ -11,7 +11,7 @@
 
 ## Figma
 
-[UCR Swim Website Design File](https://www.figma.com/)
+[UCR Swim Website Design File](https://www.figma.com/file/AJJFv2qsWeV9vi9HeAcTxB/UCR-Swim-Club?type=design&node-id=123%3A2&mode=design&t=6kH3k40eiarwvXpx-1)
 
 ## Node.js
 
