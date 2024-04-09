@@ -23,7 +23,7 @@ const Practice = () => {
       <Image
         src={waveBottom}
         alt="waveBottom"
-        className="absolute w-screen -bottom-14"
+        className="absolute w-screen -bottom-10"
       />
     </div>
   );
