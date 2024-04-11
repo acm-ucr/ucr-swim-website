@@ -7,7 +7,7 @@ const JoinButton = () => {
     border: "none",
     borderRadius: "5px",
     cursor: "pointer",
-    textDecoration: "none", 
+    textDecoration: "none",
   };
 
   return (
