@@ -4,18 +4,18 @@ import { BiSwim } from "react-icons/bi";
 export const footerLinks = [
   {
     icon: <RiInstagramFill />,
-    link: "",
+    link: "https://www.instagram.com/ucrclubswim?igsh=MzRlODBiNWFlZA==",
   },
   {
     icon: <RiDiscordFill />,
-    link: "",
+    link: "https://highlanderlink.ucr.edu/organization/swimclubatucr",
   },
   {
     icon: <RiLinksFill />,
-    link: "",
+    link: "https://highlanderlink.ucr.edu/organization/swimclubatucr",
   },
   {
     icon: <BiSwim />,
-    link: "",
+    link: "https://recreation.ucr.edu/competitive-sports/do-sports-easy",
   },
 ];
