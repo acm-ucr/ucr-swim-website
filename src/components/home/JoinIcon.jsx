@@ -7,7 +7,7 @@ const JoinIcon = ({ icon, link, text }) => {
       target="_blank"
     >
       {icon}
-      <p className="font-sans text-base mt-2">{text}</p>
+      <p className="text-base mt-2">{text}</p>
     </Link>
   );
 };
