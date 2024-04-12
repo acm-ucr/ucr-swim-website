@@ -1,6 +1,6 @@
 const Connected = () => {
   return (
-    <div className="">
+    <div className="flex justify-center items-center flex-col">
       <p className="text-swim-blue-300 flex justify-center text-7xl pt-5">
         Stay Connected
       </p>
