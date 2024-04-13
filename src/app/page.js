@@ -3,6 +3,10 @@ import Goal from "@/components/home/Goal";
 import Practice from "@/components/home/Practice";
 import SwimOutlet from "@/components/home/SwimOutlet";
 import Connected from "@/components/home/Connected";
+import JoinIcons from "@/components/home/JoinIcons";
+import Image from "next/image";
+import divers from "@/public/home/divers.webp";
+import wave from "@/public/waveTop.webp";
 
 const Home = () => {
   return (
@@ -11,7 +15,21 @@ const Home = () => {
       <Goal />
       <Practice />
       <SwimOutlet />
+      <div className="relative mb-[10%]">
+        <Image
+          src={divers}
+          alt="divers"
+          className="w-screen absolute top-[50%]"
+        />
+        <Image
+          src={wave}
+          alt="top wave"
+          className="w-screen transform -scale-x-100"
+        />
+      </div>
+
       <Connected />
+      <JoinIcons />
     </div>
   );
 };
