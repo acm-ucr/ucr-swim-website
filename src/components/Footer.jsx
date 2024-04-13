@@ -1,4 +1,4 @@
-import img1 from "@/public/footer.webp";
+import img1 from "@/public/footer.png";
 import wavetop from "@/public/waveTop.webp";
 import { footerLinks } from "../data/footerLinks";
 import Link from "next/link";
@@ -6,35 +6,37 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col relative w-page h-auto">
-      <Image alt="img1" src={img1} className=" flex w-screen h-full mt-28" />
+    <div className="flex flex-col relative w-full items-center mt-[10%]">
+      <div className="bg-gradient-to-b from-white to-swim-blue-300 h-full">
+        <Image alt="img1" src={img1} className="flex w-screen opacity-60" />
+      </div>
       <Image
         alt="wavetop"
         src={wavetop}
-        className="w-screen h-full flex absolute top-0 pb-[37.2%] bg-gradient-to-b from-white/90 to-swim-blue-300/30 bg-origin-padding"
+        className="w-screen absolute -top-[20%] h-1/3"
       />
-      <div className="flex justify-between text-white">
+      <div className="flex text-white w-11/12 justify-between items-end absolute bottom-0 pb-[4%]">
         <Link
           href="/"
-          className="hover:opacity-80 text-5xl font-bold ml-10 mb-32 self-end justify-self-start absolute bottom-0 left-0"
+          className="hover:opacity-80 text-5xl font-bold pb-[3%] ease-in-out transition-opacity"
         >
           UCR CLUB SWIM
         </Link>
-        <div className="flex items-end font-bold absolute bottom-0 right-0 pb-10">
-          <div className="flex-col justify-end items-end text-right mb-10 pr-8 pb-8 border-r-white border-r-[14px] mr-5 pt-80">
-            <div className="text-5xl font-bold pb-4">Contact Us</div>
-            <div className="text-3xl">
+        <div className="flex font-bold items-end">
+          <div className="flex flex-col items-end border-r-white border-r-[10px] pr-5 mr-5">
+            <p className="text-2xl font-bold pb-2 w-fit">Contact Us</p>
+            <p className="text-xl text-end">
               900 University Ave,<br></br>
               Riverside, California 92521
-            </div>
+            </p>
           </div>
-          <div className="text-8xl flex flex-col mr-7 mb-10 justify-between">
+          <div className="md:text-5xl 2xl:text-6xl flex flex-col justify-between">
             {footerLinks.map((item, index) => (
               <Link
                 href={item.link}
                 target="_blank"
                 key={index}
-                className="hover:text-swim-yellow hover:scale-75 duration-300"
+                className="hover:text-swim-yellow hover:scale-95 duration-300"
               >
                 {item.icon}
               </Link>
