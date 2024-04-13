@@ -1,57 +1,52 @@
 import Image from "next/image";
-import Link from "next/link";
 import BathingSuitImage from "@/public/home/bathingsuit.webp";
 import GogglesImage from "@/public/home/goggles.webp";
 import JacketImage from "@/public/home/jacket.webp";
 import ShortsImage from "@/public/home/shorts.webp";
 import SwimOutletImage from "@/public/home/swimoutlet.webp";
-
+import Button from "../Button";
 const SwimOutlet = () => {
   return (
-    <div className="flex flex-col items-center w-full relative">
-      <div className="bg-swim-blue-100 absolute w-full bottom-[20%] h-[30vh]" />
-
-      <div className="absolute -rotate-90 -left-[10%] bottom-[30%]">
-        <p className="text-swim-blue-300 text-7xl">Arena Storefront</p>
-        <p className="text-white text-6xl font-bold text-center">
-          Arena Storefront
-        </p>
-      </div>
-
-      <Image src={SwimOutletImage} alt="Swim Outlet Logo" />
-
-      <div className="grid grid-cols-3 gap-10 mt-10 items-center z-10 pl-[10%]">
-        <Link href="https://www.swimoutlet.com/" target="_blank">
-          <Image
-            src={BathingSuitImage}
-            alt="Bathing Suit Image"
-            className="hover:opacity-90 transition-opacity ease-in-out"
-          />
-        </Link>
-        <Link href="https://www.swimoutlet.com/" target="_blank">
-          <Image
-            src={JacketImage}
-            alt="Jacket Image"
-            className="hover:opacity-90 transition-opacity ease-in-out"
-          />
-        </Link>
-        <div className=" flex flex-col justify-between h-full">
-          <Link href="https://www.swimoutlet.com/" target="_blank">
-            <Image
-              src={GogglesImage}
-              alt="Goggles Image"
-              className="hover:opacity-90 transition-opacity ease-in-out"
-            />
-          </Link>
-          <Link href="https://www.swimoutlet.com/" target="_blank">
-            <Image
-              src={ShortsImage}
-              alt="Shorts Image"
-              className="hover:opacity-90 transition-opacity ease-in-out"
-            />
-          </Link>
+    <div className="w-full flex flex-col items-center md:h-[105vh]">
+      <div className="flex items-center w-full relative">
+        <div className="flex flex-col items-center w-1/4 -rotate-90 text-nowrap pr-[10%]">
+          <p className="text-swim-blue-400 md:text-7xl 2xl:text-8xl">
+            Arena Storefront
+          </p>
+          <p className="text-white md:text-6xl 2xl:text-7xl font-bold">
+            Arena Storefront
+          </p>
         </div>
+
+        <div className="w-3/5">
+          <Image
+            src={SwimOutletImage}
+            alt="Swim Outlet Logo"
+            className=" object-cover w-3/5"
+          />
+
+          <div className=" flex mt-10 w-full justify-between object-contain">
+            <Image
+              src={BathingSuitImage}
+              alt="Bathing Suit Image"
+              className="w-[31%] object-cover"
+            />
+            <Image
+              src={JacketImage}
+              alt="Jacket Image"
+              className="w-[31%] object-cover"
+            />
+
+            <div className="flex flex-col justify-between w-[31%]">
+              <Image src={GogglesImage} alt="Goggles Image" className="mb-2" />
+              <Image src={ShortsImage} alt="Shorts Image" />
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-swim-blue-100 absolute w-full bottom-[15%] md:h-[40vh] -z-10" />
       </div>
+      <Button link="" text="Visit Store" target="_blank" />
     </div>
   );
 };
