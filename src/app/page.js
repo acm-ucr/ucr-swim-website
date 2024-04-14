@@ -3,7 +3,6 @@ import Goal from "@/components/home/Goal";
 import Practice from "@/components/home/Practice";
 import SwimOutlet from "@/components/home/SwimOutlet";
 import Connected from "@/components/home/Connected";
-import JoinIcons from "@/components/home/JoinIcons";
 import Image from "next/image";
 import divers from "@/public/home/divers.webp";
 import wave from "@/public/waveTop.webp";
@@ -29,7 +28,6 @@ const Home = () => {
       </div>
 
       <Connected />
-      <JoinIcons />
     </div>
   );
 };
