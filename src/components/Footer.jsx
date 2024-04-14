@@ -1,4 +1,4 @@
-import img1 from "@/public/footer.png";
+import img1 from "@/public/footer.webp";
 import wavetop from "@/public/waveTop.webp";
 import { footerLinks } from "../data/footerLinks";
 import Link from "next/link";
