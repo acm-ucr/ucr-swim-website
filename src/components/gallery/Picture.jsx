@@ -9,7 +9,7 @@ const Picture = ({ text, link, image }) => {
           {text}
         </p>
         <div className="opacity-0 group-hover:opacity-50 bg-gray-900 w-full h-full absolute group-hover:duration-150"></div>
-        <Image src={image} />
+        <Image src={image} alt="gallery image" />
       </div>
     </Link>
   );
