@@ -47,7 +47,7 @@ const CalendarEvents = () => {
             eventPropGetter={() => {
               return {
                 className:
-                  "p-0 !active:ring-0 !focus:outline-0 !bg-transparent",
+                  "!p-0 !active:ring-0 !focus:outline-0 !bg-transparent",
               };
             }}
             dayPropGetter={(event) => {
