@@ -18,7 +18,7 @@ const CalendarEvents = () => {
   const dummyEvents = [
     {
       title: "Meeting with Team",
-      start: new Date(2024, 1, 5, 10, 0),
+      start: new Date(2024, 5, 5, 10, 0),
       end: new Date(2024, 1, 5, 11, 0),
       location: "WCH",
       summary: "nice event",
