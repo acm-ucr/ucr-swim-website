@@ -1,7 +1,7 @@
-const CustomEvent = ({ event }) => {
+const CustomEvent = (event) => {
   return (
-    <div className="bg-swim-blue-200 text-white text-lg flex items-center">
-      {event.summary}
+    <div className="bg-swim-blue-200 text-center text-white text-xl h-7 flex items-center justify-center">
+      <p className="whitespace-nowrap m-0"> {event.title} </p>
     </div>
   );
 };

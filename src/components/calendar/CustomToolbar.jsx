@@ -15,9 +15,9 @@ const monthNames = [
   "Dec",
 ];
 
-const CustomToolbar = ({ event }) => {
+const CustomToolbar = (event) => {
   return (
-    <div className=" text-5xl font-bold flex justify-center items-center gap-3 py-7 w-full">
+    <div className=" text-6xl font-bold flex justify-center items-center gap-3 py-12 w-full">
       <BsArrowLeft
         onClick={() => {
           event.onNavigate("PREV");

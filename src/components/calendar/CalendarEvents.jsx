@@ -18,23 +18,16 @@ const CalendarEvents = () => {
   const dummyEvents = [
     {
       title: "Meeting with Team",
-      start: new Date(2024, 1, 20, 10, 0),
+      start: new Date(2024, 1, 5, 10, 0),
       end: new Date(2024, 1, 5, 11, 0),
       location: "WCH",
       summary: "nice event",
     },
-    {
-      title: "Lunch Break",
-      start: new Date(2024, 2, 20, 10, 0),
-      end: new Date(2024, 2, 5, 11, 0),
-      location: "WCH",
-      summary: "lit event",
-    },
   ];
   return (
-    <section className="size-[80%] pt-[5%] flex justify-center items-center flex-col">
-      <div className="mb-5 w-11/12 flex justify-center items-center">
-        <div className="h-[110vh] w-full relative">
+    <section className="w-full pt-[5%] flex justify-center items-center flex-col">
+      <div className="mb-5 w-11/12 flex justify-center items-center ">
+        <div className="h-[75vh] w-[75%] relative ">
           <Calendar
             className="w-full m-0 p-0 text-3xl"
             date={date}
@@ -62,7 +55,7 @@ const CalendarEvents = () => {
                 className: `${
                   new Date(event).toLocaleDateString() ==
                   new Date().toLocaleDateString()
-                    ? "!bg-swim-blue-200"
+                    ? "!bg-swim-blue-100"
                     : "!bg-white"
                 }`,
                 style: {
