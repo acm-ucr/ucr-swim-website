@@ -10,10 +10,7 @@ const Join = () => {
       <Welcome />
       <Info />
       <InfoCard
-        text1="Follow our"
-        text2="Instagram"
-        text3=" for"
-        text4="general news"
+        text="Follow our Instagram for general news"
         link="https://www.instagram.com/ucrclubswim/"
       />
     </div>
