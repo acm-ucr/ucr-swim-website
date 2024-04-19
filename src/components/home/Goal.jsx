@@ -15,7 +15,7 @@ const Goal = () => {
         </p>
         <Link
           className="md:text-xl 2xl:text-2xl ml-10 px-3 rounded-sm text-swim-blue-400 font-bold bg-swim-yellow p-[1%] w-fit hover:opacity-70 ease-in-out transition-opacity"
-          href=""
+          href="https://docs.google.com/document/d/1mQQaOBaAhcTjqM1Rc8hUjUvHqpX8P1nK_hGxzoBDXG4/edit?usp=sharing"
           target="_blank"
         >
           Constitution

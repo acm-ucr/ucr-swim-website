@@ -8,7 +8,7 @@ import { items } from "@/data/Navigation";
 const NavBar = () => {
   const [selected, setSelected] = useState("");
   return (
-    <div className="px-8 fixed z-30 h-[8vh] bg-white w-screen flex justify-between items-center text-2xl">
+    <div className="px-8 fixed z-30 bg-white w-screen flex justify-between items-center text-xl 2xl:text-2xl">
       <Link
         onClick={() => {
           setSelected("");
@@ -18,10 +18,10 @@ const NavBar = () => {
         <Image
           src={logo}
           alt="Logo"
-          className="h-[8vh] w-[10vh] hover:opacity-60"
+          className="w-16 hover:opacity-60 duration-300"
         />
       </Link>
-      <div className="flex justify-between w-1/2">
+      <div className="flex justify-evenly w-2/5">
         {items.map((item, index) => (
           <Link
             href={item.link}
@@ -29,7 +29,7 @@ const NavBar = () => {
             onClick={() => {
               setSelected(item.name);
             }}
-            className={`hover:text-swim-blue-300 duration-300 border-solid ${
+            className={`hover:text-swim-blue-300 duration-300 border-solid font-semibold ${
               selected === item.name
                 ? "border-b-2 border-swim-yellow text-swim-blue-300"
                 : "text-black"
