@@ -4,18 +4,19 @@ import Link from "next/link";
 
 const InfoCard = ({ text, link }) => {
   return (
-    <button className="hover:opacity-80 active:opacity-50 relative h-full w-fill">
-      <Link href={link}>
-        <Image
-          src={image1}
-          alt="InfoPicture"
-          className="object-contain h-full w-39 rounded-lg"
-        />
-        <div class="absolute bottom-[15%] w-full py-2.5 bottom-0 inset-x-0 bg-swim-blue-200 text-white text-2xl rounded-lg font-bold text-start px-8">
-          <p>{text}</p>
-        </div>
-      </Link>
-    </button>
+    <Link
+      href={link}
+      className="hover:opacity-80 active:opacity-50 relative h-full w-fill"
+    >
+      <Image
+        src={image1}
+        alt="InfoPicture"
+        className="object-contain h-full w-39 rounded-lg"
+      />
+      <div class="absolute bottom-[15%] w-full py-2.5 bottom-0 inset-x-0 bg-swim-blue-200 text-white text-2xl rounded-lg font-bold text-start px-8">
+        {text}
+      </div>
+    </Link>
   );
 };
 
