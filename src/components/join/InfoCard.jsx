@@ -13,7 +13,7 @@ const InfoCard = ({ text, link }) => {
         alt="InfoPicture"
         className="object-contain h-full w-39 rounded-lg"
       />
-      <div class="absolute bottom-[15%] w-full py-2.5 bottom-0 inset-x-0 bg-swim-blue-200 text-white text-2xl rounded-lg font-bold text-start px-8">
+      <div class="absolute bottom-6 w-full py-2.5 inset-x-0 bg-swim-blue-200 text-white text-2xl rounded-lg font-bold text-start px-8">
         {text}
       </div>
     </Link>
