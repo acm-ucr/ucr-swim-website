@@ -4,8 +4,8 @@ import Info from "@/components/join/Info";
 import InfoCard from "@/components/join/InfoCard";
 import PageTitle from "@/components/PageTitle";
 import join from "@/public/join/join.webp";
-import image2 from "@/public/join/infocard.png";
-import image1 from "@/public/join/infocard2.png";
+import image2 from "@/public/join/infocard.webp";
+import image1 from "@/public/join/infocard2.webp";
 const Join = () => {
   return (
     <div className="w-full flex flex-col items-center">
