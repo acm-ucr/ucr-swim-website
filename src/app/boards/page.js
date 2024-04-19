@@ -1,7 +1,7 @@
 import Board from "@/components/board/Board";
 import imageexample from "@/public/board/temp.webp";
 import PageTitle from "@/components/PageTitle";
-import boards from "@/public/board/boards.png";
+import boards from "@/public/board/boards.webp";
 
 const Boards = () => {
   return (

@@ -1,10 +1,10 @@
 import Picture from "@/components/gallery/Picture.jsx";
 import PageTitle from "@/components/PageTitle";
-import gallery from "@/public/gallery/gallery.png";
+import gallery from "@/public/gallery/gallery.webp";
 import food from "@/public/gallery/food.JPG";
-import group from "@/public/gallery/group.jpeg";
-import guys from "@/public/gallery/guys.jpeg";
-import intersquad from "@/public/gallery/intersquad.jpeg";
+import group from "@/public/gallery/group.webp";
+import guys from "@/public/gallery/guys.webp";
+import intersquad from "@/public/gallery/intersquad.webp";
 const Gallery = () => {
   return (
     <div className="w-full flex flex-col items-center">
