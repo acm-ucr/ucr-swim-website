@@ -1,20 +1,22 @@
 import InfoCard from "./InfoCard";
+import Button from "../Button";
 
 const Info = () => {
   return (
-    <div className="w-full l-100 flex">
-      <div className="flex flex-col ml-28 mt-24">
-        <p className="text-swim-yellow md:text-2xl">Lorem ipsum dolor sit</p>
-        <p className="text-swim-blue-400 md:text-4xl ">
-          How to keep up with <br />
-          information, <br />
-          competitions, and <br />
-          socials:
-        </p>
+    <div className="w-screen flex justify-center items-center flex-col">
+      <div className="flex flex-row justify-evenly">
+        <div className="flex flex-col w-1/3">
+          <p className="text-swim-yellow text-2xl">Lorem ipsum dolor sit</p>
+          <p className="text-swim-blue-400 font-bold text-4xl leading-snug">
+            How to keep up with information, competitions, and socials:
+          </p>
+        </div>
+        <InfoCard
+          text="Follow us on Instagram for general news"
+          link="https://www.instagram.com/"
+        />
       </div>
-      <div className="ml-auto">
-        <InfoCard />
-      </div>
+      <Button link="/join" text="Member Info Form" />
     </div>
   );
 };
