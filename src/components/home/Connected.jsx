@@ -1,10 +1,10 @@
 import { iconLinks } from "../../data/iconLinks";
-import Link from "next/link";
+import JoinIcon from "./JoinIcon";
 import Button from "../Button";
 
 const Connected = () => {
   return (
-    <div className="flex items-center flex-col mt-[10%]">
+    <div className="flex items-center flex-col mt-[10%] w-full">
       <p className="text-swim-blue-400 md:text-7xl 2xl:text-8xl pt-5">
         Stay Connected
       </p>
@@ -12,22 +12,22 @@ const Connected = () => {
         Lorem ipsum dolor sit amet
       </p>
 
-      <div className="text-8xl grid grid-flow-col gap-24 justify-center items-center mt-[5%] mb-[2%]">
+      <div className=" grid grid-cols-5 mt-[3%] mb-[3%] w-3/4">
         {iconLinks.map((item, index) => (
-          <div key={index} className="flex flex-col items-center">
-            <Link
-              href={item.link}
-              target="_blank"
-              className="hover:text-swim-yellow hover:scale-95 duration-300"
-            >
-              {item.icon}
-            </Link>
-            <p className="text-lg font-semibold">{item.label}</p>
-          </div>
+          <JoinIcon
+            icon={item.icon}
+            text={item.label}
+            link={item.link}
+            key={index}
+          />
         ))}
       </div>
 
-      <Button link="" text="Member Info Form" target="_blank" />
+      <Button
+        link="https://docs.google.com/forms/d/1eVhGvKFBgVIQICbf83hUOcnGMz6jaWLEllglrM0l9cU/edit"
+        text="Member Info Form"
+        target="_blank"
+      />
     </div>
   );
 };

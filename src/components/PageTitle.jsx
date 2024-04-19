@@ -9,7 +9,7 @@ const PageTitle = ({ image, title }) => {
         alt="background image"
         className="w-screen opacity-80"
       />
-      <p className="flex items-center justify-center absolute top-0 font-bold text-5xl text-white border-swim-yellow border-r-[20px] w-1/4 h-full bg-swim-blue-200/70">
+      <p className="flex items-center justify-center absolute top-0 font-bold text-5xl text-white border-swim-yellow border-r-[20px] w-1/3 h-full bg-swim-blue-200/70">
         {title}
       </p>
       <Image

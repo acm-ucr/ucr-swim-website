@@ -15,12 +15,12 @@ export const iconLinks = [
   {
     icon: <RiDiscordFill />,
     label: "Discord",
-    link: "https://highlanderlink.ucr.edu/organization/swimclubatucr",
+    link: "https://discord.gg/3D25jBTyzk",
   },
   {
     icon: <RiShoppingBagLine />,
     label: "Swim Outlet",
-    link: "https://google.com",
+    link: "https://www.swimoutlet.com/collections/ucrclubswim?groupid=17634",
   },
   {
     icon: <RiLinksFill />,

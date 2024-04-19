@@ -8,7 +8,7 @@ export const footerLinks = [
   },
   {
     icon: <RiDiscordFill />,
-    link: "https://highlanderlink.ucr.edu/organization/swimclubatucr",
+    link: "https://discord.gg/3D25jBTyzk",
   },
   {
     icon: <RiLinksFill />,

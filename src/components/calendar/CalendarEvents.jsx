@@ -25,11 +25,11 @@ const CalendarEvents = () => {
     },
   ];
   return (
-    <section className="w-full pt-[5%] flex justify-center items-center flex-col">
+    <section className="w-full flex justify-center items-center flex-col">
       <div className="mb-5 w-11/12 flex justify-center items-center ">
-        <div className="h-[75vh] w-[75%] relative ">
+        <div className="h-[95vh] w-[75%] relative">
           <Calendar
-            className="w-full m-0 p-0 text-3xl"
+            className="w-full m-0 p-0 2xl:text-3xl text-xl"
             date={date}
             onNavigate={(newDate) => {
               setDate(newDate);
