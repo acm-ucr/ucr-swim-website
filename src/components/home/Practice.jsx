@@ -4,11 +4,11 @@ import waveBottom from "@/public/waveBottom.webp";
 
 const Practice = () => {
   return (
-    <div className="flex w-full bg-gradient-to-r from-swim-blue-100 to-swim-blue-300 text-3xl relative">
+    <div className="flex w-full bg-gradient-to-r from-swim-blue-100 to-swim-blue-300 md:text-2xl 2xl:text-3xl relative mb-[8%]">
       <Image src={practice} alt="practice" className="w-1/2" />
 
       <div className="w-1/2 pt-[8%] px-[6%] text-white">
-        <p className="text-8xl mb-5 font-semibold">Practices</p>
+        <p className="md:text-7xl 2xl:text-8xl mb-5 font-semibold">Practices</p>
 
         <div className="flex justify-between w-full">
           <p>Tuesday and Thursday </p>
@@ -23,7 +23,7 @@ const Practice = () => {
       <Image
         src={waveBottom}
         alt="waveBottom"
-        className="absolute w-screen -bottom-10"
+        className="absolute w-screen -bottom-[10%]"
       />
     </div>
   );

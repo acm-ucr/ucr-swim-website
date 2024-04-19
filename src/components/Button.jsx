@@ -3,7 +3,7 @@ import Link from "next/link";
 const Button = ({ link, text, target, color = "text-black" }) => {
   return (
     <Link
-      className={` ${color} h-15 w-fit text-2xl bg-swim-yellow px-10 py-3 font-bold text-center hover:opacity-50 active:opacity-40 z-10`}
+      className={` ${color} my-6 duration-300 w-fit rounded-sm md:text-2xl 2xl:text-3xl bg-swim-yellow px-8 py-2 font-bold hover:opacity-50 active:opacity-40 z-10`}
       href={link}
       target={target}
     >
