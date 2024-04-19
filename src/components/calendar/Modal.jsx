@@ -7,7 +7,7 @@ const Modal = ({ events, setEvents }) => {
         <p className="py-2 px-3 text-lg font-bold">{events.summary}</p>
         <AiOutlinePlus
           onClick={() => setEvents(null)}
-          className="rotate-45 p-0 hover:scale-110 duration-300 hover:cursor-pointer text-3xl m-3"
+          className="rotate-45 p-0 hover:scale-110 duration-300 hover:cursor-pointer text-2xl 2xl:text-3xl m-3"
         />
       </div>
       <div className="p-3">

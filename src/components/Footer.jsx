@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="flex text-white w-11/12 justify-between items-end absolute bottom-0 pb-[4%]">
         <Link
           href="/"
-          className="hover:opacity-80 text-5xl font-bold pb-[3%] ease-in-out transition-opacity"
+          className="hover:opacity-80 text-5xl font-bold pb-[3%] duration-300 ease-in-out"
         >
           UCR CLUB SWIM
         </Link>

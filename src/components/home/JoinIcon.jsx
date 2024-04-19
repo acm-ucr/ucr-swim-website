@@ -3,11 +3,11 @@ const JoinIcon = ({ icon, link, text }) => {
   return (
     <Link
       href={link}
-      className="text-6xl py-2 flex flex-col items-center font-bold text-white duration-300 hover:text-swim-blue-100"
+      className=" justify-self-center text-[85px] mb-2 flex flex-col items-center font-bold text-black duration-300 hover:text-swim-blue-100"
       target="_blank"
     >
       {icon}
-      <p className="text-base mt-2">{text}</p>
+      <p className="text-lg mt-2">{text}</p>
     </Link>
   );
 };

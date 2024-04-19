@@ -1,9 +1,5 @@
 export const items = [
   {
-    name: "Home",
-    link: "/",
-  },
-  {
     name: "Join",
     link: "/join",
   },
