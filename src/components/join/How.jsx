@@ -19,8 +19,8 @@ const MembershipInstructions = () => {
             to be redirected to the front page
           </li>
           <li>
-            Once you're on the front page, go ahead and click register under
-            "Swim Club"
+            Once you&apos;re on the front page, go ahead and click register
+            under &quot;Swim Club&quot;
           </li>
           <li>Sign in through your UCR login</li>
           <li>
@@ -45,10 +45,10 @@ const MembershipInstructions = () => {
             </a>
           </li>
           <li>Sign in with your UCR Login</li>
-          <li>Send a request to join "Club Swim at UCR"</li>
+          <li>Send a request to join &quot;Club Swim at UCR&quot;</li>
           <li>
-            You will not be approved until we see you're on our roster on Do
-            Easy Sports
+            You will not be approved until we see you&apos;re on our roster on
+            Do Sports Easy
           </li>
         </ol>
       </div>
