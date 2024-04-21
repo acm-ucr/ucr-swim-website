@@ -18,19 +18,21 @@ const Footer = () => {
       <div className="flex text-white w-11/12 justify-between items-end absolute bottom-0 pb-[4%]">
         <Link
           href="/"
-          className="hover:opacity-80 text-5xl font-bold pb-[3%] duration-300 ease-in-out"
+          className="hover:opacity-80 md:text-5xl text-xl font-bold pb-[3%] duration-300 ease-in-out"
         >
           UCR CLUB SWIM
         </Link>
         <div className="flex font-bold items-end">
-          <div className="flex flex-col items-end border-r-white border-r-[10px] pr-5 mr-5">
-            <p className="text-2xl font-bold pb-2 w-fit">Contact Us</p>
-            <p className="text-xl text-end">
+          <div className="flex flex-col items-end border-r-white md:border-r-[10px] border-r-[6px] md:pr-5 pr-3 mr-5">
+            <p className="md:text-2xl text-sm font-bold pb-2 w-fit">
+              Contact Us
+            </p>
+            <p className="md:text-xl text-[10px] text-end">
               900 University Ave,<br></br>
               Riverside, California 92521
             </p>
           </div>
-          <div className="md:text-5xl 2xl:text-6xl flex flex-col justify-between">
+          <div className="md:text-5xl 2xl:text-6xl flex flex-col justify-between md:-ml-0 -ml-2">
             {footerLinks.map((item, index) => (
               <Link
                 href={item.link}
