@@ -32,13 +32,13 @@ const Footer = () => {
               Riverside, California 92521
             </p>
           </div>
-          <div className="md:text-5xl 2xl:text-6xl flex flex-col justify-between md:-ml-0 -ml-2">
+          <div className="md:text-5xl 2xl:text-6xl flex flex-col justify-between md:-ml-0 -ml-2 ">
             {footerLinks.map((item, index) => (
               <Link
                 href={item.link}
                 target="_blank"
                 key={index}
-                className="hover:text-swim-yellow hover:scale-95 duration-300"
+                className="hover:text-swim-yellow hover:scale-95 duration-300 md:p-0 p-[1px] text-2xl md:text-6xl"
               >
                 {item.icon}
               </Link>
