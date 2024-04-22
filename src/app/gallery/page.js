@@ -1,10 +1,9 @@
-import Picture from "@/components/gallery/Picture.jsx";
+"use client";
+import { PICTURES } from "@/data/pictures.js";
 import PageTitle from "@/components/PageTitle";
 import gallery from "@/public/gallery/gallery.webp";
-import food from "@/public/gallery/food.JPG";
-import group from "@/public/gallery/group.webp";
-import guys from "@/public/gallery/guys.webp";
-import intersquad from "@/public/gallery/intersquad.webp";
+import Picture from "@/components/gallery/Picture.jsx";
+
 const Gallery = () => {
   return (
     <div className="w-full flex flex-col items-center">
@@ -15,14 +14,14 @@ const Gallery = () => {
       </p>
 
       <div className="grid grid-cols-2 w-4/5">
-        <Picture text="Fall" link="https://www.google.com/" image={group} />
-        <Picture text="Winter" link="https://www.google.com/" image={food} />
-        <Picture
-          text="Spring"
-          link="https://www.google.com/"
-          image={intersquad}
-        />
-        <Picture text="Summer" link="https://www.google.com/" image={guys} />
+        {PICTURES.map((picture, index) => (
+          <Picture
+            key={index}
+            text={picture.text}
+            link={picture.link}
+            image={picture.image}
+          />
+        ))}
       </div>
     </div>
   );
