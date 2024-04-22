@@ -13,7 +13,7 @@ const Gallery = () => {
         Check Out Our Photos
       </p>
 
-      <div className="grid grid-cols-2 w-4/5">
+      <div className="lg:grid lg:grid-cols-2 w-4/5">
         {PICTURES.map((picture, index) => (
           <Picture
             key={index}
