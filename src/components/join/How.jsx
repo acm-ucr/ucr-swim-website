@@ -1,26 +1,35 @@
-const MembershipInstructions = () => {
+import Image from "next/image";
+import Link from "next/link";
+
+const How = () => {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white shadow rounded-lg">
+    <div className="max-w-4xl mx-auto p-6 bg-white rounded-lg">
       <h1 className="text-3xl font-bold mb-4">
         How to Practice and Officially become a member:
       </h1>
+
+      <Image
+        src="/join/how.png"
+        alt="Join the Swim Club"
+        width={600}
+        height={400}
+      />
 
       <div className="mb-6">
         <h2 className="text-xl font-semibold mb-2">1. Join Do Sports Easy</h2>
         <ol className="list-decimal list-inside">
           <li>
             Click the{" "}
-            <a
-              href="https://recreation.ucr.edu/competitive-sports/do-sports-easy"
-              className="text-blue-500 hover:text-blue-700"
-            >
-              Link Above
-            </a>{" "}
+            <Link href="https://recreation.ucr.edu/competitive-sports/do-sports-easy">
+              <a className="text-swim-blue-300 hover:text-swim-blue-400">
+                Link Above
+              </a>
+            </Link>{" "}
             to be redirected to the front page
           </li>
           <li>
-            Once you&apos;re on the front page, go ahead and click register
-            under &quot;Swim Club&quot;
+            Once you're on the front page, go ahead and click register under
+            "Swim Club"
           </li>
           <li>Sign in through your UCR login</li>
           <li>
@@ -37,25 +46,22 @@ const MembershipInstructions = () => {
         <ol className="list-decimal list-inside">
           <li>
             Click the{" "}
-            <a
-              href="https://highlanderlink.ucr.edu/organization/swimclubatucr"
-              className="text-blue-500 hover:text-blue-700"
-            >
-              Link above
-            </a>
+            <Link href="https://highlanderlink.ucr.edu/organization/swimclubatucr">
+              <a className="text-swim-blue-300 hover:text-swim-blue-400">
+                Link above
+              </a>
+            </Link>
           </li>
           <li>Sign in with your UCR Login</li>
-          <li>Send a request to join &quot;Club Swim at UCR&quot;</li>
+          <li>Send a request to join "Club Swim at UCR"</li>
           <li>
-            You will not be approved until we see you&apos;re on our roster on
-            Do Sports Easy
+            You will not be approved until we see you're on our roster on Do
+            Sports Easy
           </li>
         </ol>
       </div>
-
-      <p className="text-gray-600">Good luck and have fun swimming!</p>
     </div>
   );
 };
 
-export default MembershipInstructions;
+export default How;
