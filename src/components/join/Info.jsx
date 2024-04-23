@@ -15,7 +15,7 @@ const Info = () => {
             How to keep up with information, competitions, and socials:
           </p>
         </div>
-        <div className="md:flex">
+        <div className="flex md:flex-row flex-col">
           <InfoCard
             text="Follow our Instagram for general news"
             link="https://discord.gg/3D25jBTyzk"
