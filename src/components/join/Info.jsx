@@ -6,14 +6,16 @@ import image1 from "@/public/join/infocard2.webp";
 const Info = () => {
   return (
     <div className="w-screen flex justify-center items-center flex-col mt-[10%]">
-      <div className="flex w-3/4 justify-between mb-[4%]">
-        <div className="flex flex-col w-2/5">
-          <p className="text-swim-yellow text-2xl">Lorem ipsum dolor sit</p>
-          <p className="text-swim-blue-400 font-bold text-4xl leading-snug">
+      <div className="md:flex w-3/4 justify-between mb-[4%]">
+        <div className="flex flex-col md:w-2/5">
+          <p className="text-swim-yellow text-xl md:text-2xl">
+            Lorem ipsum dolor sit
+          </p>
+          <p className="text-swim-blue-400 font-bold text-2xl md:text-4xl leading-snug">
             How to keep up with information, competitions, and socials:
           </p>
         </div>
-        <div className="flex">
+        <div className="flex md:flex-row flex-col">
           <InfoCard
             text="Follow our Instagram for general news"
             link="https://discord.gg/3D25jBTyzk"
