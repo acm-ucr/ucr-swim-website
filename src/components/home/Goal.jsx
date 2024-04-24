@@ -5,7 +5,7 @@ const Goal = () => {
   return (
     <div className="w-full flex pb-[5%]">
       <div className="ml-[5%] md:ml-[8%] justify-center flex flex-col gap-3 md:gap-5">
-        <p className="text-2xl md:text-7xl 2xl:text-8xl ml-10 text-swim-blue-400">
+        <p className="text-4xl md:text-7xl 2xl:text-8xl md:ml-10 text-swim-blue-400">
           Our Goal
         </p>
         <p className="md:my-2 border-swim-yellow border-l-[5px] md:border-l-[10px] pl-[3%] text-sm md:text-xl 2xl:text-2xl font-light w-full leading-loose md:leading-loose 2xl:leading-loose">
@@ -23,7 +23,9 @@ const Goal = () => {
       </div>
       <Image
         src={image1}
-        className="hidden md:block md:w-2/5 mr-[5%]"
+        className="hidden lg:block mr-[5%]"
+        width={500}
+        height={500}
         alt="Swim image"
       />
     </div>
