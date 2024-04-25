@@ -1,12 +1,33 @@
+import { iconLinks } from "../../data/iconLinks";
+import JoinIcon from "./JoinIcon";
+import Button from "../Button";
+
 const Connected = () => {
   return (
-    <div className="flex items-center flex-col my-[8%]">
+    <div className="flex items-center flex-col mt-[10%] w-full">
       <p className="text-swim-blue-400 md:text-7xl 2xl:text-8xl pt-5">
         Stay Connected
       </p>
       <p className="text-swim-yellow md:text-2xl 2xl:text-3xl">
         Lorem ipsum dolor sit amet
       </p>
+
+      <div className=" grid grid-cols-5 mt-[3%] mb-[3%] w-3/4">
+        {iconLinks.map((item, index) => (
+          <JoinIcon
+            icon={item.icon}
+            text={item.label}
+            link={item.link}
+            key={index}
+          />
+        ))}
+      </div>
+
+      <Button
+        link="https://docs.google.com/forms/d/1eVhGvKFBgVIQICbf83hUOcnGMz6jaWLEllglrM0l9cU/edit"
+        text="Member Info Form"
+        target="_blank"
+      />
     </div>
   );
 };

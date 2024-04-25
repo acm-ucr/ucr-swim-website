@@ -13,7 +13,7 @@ const Landing = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
-        <Button link="/join" text="Join" />
+        <Button link="/join" text="Join" color="text-swim-blue-400" />
       </div>
 
       <Image
