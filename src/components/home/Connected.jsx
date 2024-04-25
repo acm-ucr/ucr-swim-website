@@ -12,28 +12,8 @@ const Connected = () => {
         Lorem ipsum dolor sit amet
       </p>
 
-      <div className="hidden sm:grid grid-cols-5 mt-[3%] mb-[3%] w-3/4 ">
+      <div className="flex flex-wrap justify-center w-60 sm:grid-cols-5 mt-[3%] mb-[3%] sm:w-3/4 justify-evenly ">
         {iconLinks.map((item, index) => (
-          <JoinIcon
-            icon={item.icon}
-            text={item.label}
-            link={item.link}
-            key={index}
-          />
-        ))}
-      </div>
-      <div className=" grid grid-cols-3 mt-[3%] mb-[3%] w-3/4 sm:hidden ">
-        {iconLinks.slice(0, 3).map((item, index) => (
-          <JoinIcon
-            icon={item.icon}
-            text={item.label}
-            link={item.link}
-            key={index}
-          />
-        ))}
-      </div>
-      <div className="grid grid-cols-2 mt-[3%] mb-[3%] w-3/5 sm:hidden">
-        {iconLinks.slice(3).map((item, index) => (
           <JoinIcon
             icon={item.icon}
             text={item.label}
