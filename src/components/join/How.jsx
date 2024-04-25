@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link"; // Import Link component for routing
 
 const How = () => {
   return (
@@ -44,21 +43,15 @@ const How = () => {
               marginTop: "24px",
             }}
           >
-            2. Register for Swim Club on{" "}
-            <Link href="https://highlanderlink.ucr.edu/organization/swimclubatucr">
-              <a>Highlander Link</a>
-            </Link>
+            2. Register for Swim Club on Highlander Link
           </h2>
           <ol style={{ paddingLeft: "16px" }}>
             <li>a. Click the Link above</li>
             <li>b. Sign in with your UCR Login</li>
-            <li>c. Send a request to join &lsquo;Club Swim at UCR&rsquo;</li>
+            <li>c. Send a request to join &apos;Club Swim at UCR&apos;</li>
             <li>
               d. You will not be approved until we see you&apos;re on our roster
-              on
-              <Link href="https://recreation.ucr.edu/competitive-sports/do-sports-easy">
-                <a>Do Sports Easy</a>
-              </Link>
+              on Do Sports Easy
             </li>
           </ol>
         </div>
@@ -71,21 +64,18 @@ const How = () => {
               marginBottom: "8px",
             }}
           >
-            1. Join{" "}
-            <Link href="/do-sports-easy">
-              <a>Do Sports Easy</a>
-            </Link>
+            1. Join Do Sports Easy
           </h2>
           <ol style={{ paddingLeft: "16px" }}>
-            <li>a. Click the Link Above to be redirected to the front page</li>
+            <li>Click the Link Above to be redirected to the front page</li>
             <li>
-              b. Once you&apos;re on the front page, go ahead and click register
-              under &lsquo;Swim Club&rsquo;
+              Once you&apos;re on the front page, go ahead and click register
+              under &apos;Swim Club&apos;
             </li>
-            <li>c. Sign in through your UCR login</li>
+            <li>Sign in through your UCR login</li>
             <li>
-              d. Fill out all the necessary personal information and complete
-              the liability waiver
+              Fill out all the necessary personal information and complete the
+              liability waiver
             </li>
           </ol>
         </div>
