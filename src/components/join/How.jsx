@@ -11,8 +11,8 @@ const How = () => {
       <Image
         src="/join/how.png"
         alt="Join the Swim Club"
-        width={600}
-        height={400}
+        width={500}
+        height={500}
       />
 
       <div className="mb-6">
