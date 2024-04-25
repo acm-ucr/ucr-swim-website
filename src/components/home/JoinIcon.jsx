@@ -6,8 +6,8 @@ const JoinIcon = ({ icon, link, text }) => {
       className=" justify-self-center text-[85px] mb-2 flex flex-col items-center font-bold text-black duration-300 hover:text-swim-blue-100"
       target="_blank"
     >
-      {icon}
-      <p className="text-lg mt-2">{text}</p>
+      <span className="text-5xl md:text-7xl lg:text-8xl">{icon}</span>
+      <p className="text-xs md:text-sm lg:text-lg mt-2">{text}</p>
     </Link>
   );
 };
