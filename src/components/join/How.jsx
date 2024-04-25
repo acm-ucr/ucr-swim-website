@@ -20,10 +20,11 @@ const How = () => {
         <ol className="list-decimal list-inside">
           <li>
             Click the{" "}
-            <Link href="https://recreation.ucr.edu/competitive-sports/do-sports-easy">
-              <a className="text-swim-blue-300 hover:text-swim-blue-400">
-                Link Above
-              </a>
+            <Link
+              href="https://recreation.ucr.edu/competitive-sports/do-sports-easy"
+              className="text-swim-blue-300 hover:text-swim-blue-400"
+            >
+              Link Above
             </Link>{" "}
             to be redirected to the front page
           </li>
@@ -46,10 +47,11 @@ const How = () => {
         <ol className="list-decimal list-inside">
           <li>
             Click the{" "}
-            <Link href="https://highlanderlink.ucr.edu/organization/swimclubatucr">
-              <a className="text-swim-blue-300 hover:text-swim-blue-400">
-                Link above
-              </a>
+            <Link
+              href="https://highlanderlink.ucr.edu/organization/swimclubatucr"
+              className="text-swim-blue-300 hover:text-swim-blue-400"
+            >
+              Link above
             </Link>
           </li>
           <li>Sign in with your UCR Login</li>
