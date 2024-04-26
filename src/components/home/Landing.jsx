@@ -7,8 +7,8 @@ const Landing = () => {
   return (
     <div className="w-full relative mb-[3%]">
       <Image src={image1} alt="Background image 1" className="w-screen" />
-      <div className="flex justify-center flex-col w-1/2 h-full bg-swim-blue-200/70 top-0 absolute pl-[5%]">
-        <p className="font-bold text-white text-2xl md:text-6xl mb-4 mt-[10%] md:mt-[0%]">
+      <div className="flex justify-center flex-col w-1/2 h-full bg-swim-blue-200/70 top-0 absolute pl-[5%] gap-y-0.2 md:gap-y-0">
+        <p className="font-bold text-white text-xl md:text-6xl mb-4">
           UCR Club Swim
         </p>
         <p className="font-semibold text-white text-xs md:text-2xl">
