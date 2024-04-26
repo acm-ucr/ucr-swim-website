@@ -8,7 +8,7 @@ import { items } from "@/data/Navigation";
 const NavBar = () => {
   const [selected, setSelected] = useState("");
   return (
-    <div className="px-8 fixed z-30 bg-white w-screen flex justify-between items-center text-xl 2xl:text-2xl">
+    <div className="px-8 sticky z-30 bg-white w-screen flex justify-between items-center text-xl 2xl:text-2xl">
       <Link
         onClick={() => {
           setSelected("");
