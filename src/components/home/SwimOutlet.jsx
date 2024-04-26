@@ -10,10 +10,10 @@ const SwimOutlet = () => {
     <div className="w-full flex flex-col items-center md:h-[105vh]">
       <div className="flex items-center w-full relative">
         <div className="flex flex-col items-center w-[30%] -rotate-90 text-nowrap pr-[10%]">
-          <p className="text-swim-blue-400 md:text-6xl 2xl:text-7xl">
+          <p className="text-swim-blue-400 text-xl md:text-6xl 2xl:text-7xl">
             Arena Storefront
           </p>
-          <p className="text-white md:text-5xl 2xl:text-6xl font-bold">
+          <p className="text-white text-sm md:text-5xl 2xl:text-6xl font-bold">
             Arena Storefront
           </p>
         </div>
@@ -44,7 +44,7 @@ const SwimOutlet = () => {
           </div>
         </div>
 
-        <div className="bg-swim-blue-100 absolute w-full bottom-[15%] md:h-[40vh] -z-10" />
+        <div className="bg-swim-blue-100 absolute w-full bottom-[15%] h-[12vh] md:h-[40vh] -z-10" />
       </div>
       <Button
         link="https://www.swimoutlet.com/collections/ucrclubswim?groupid=17634"
