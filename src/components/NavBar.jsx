@@ -13,7 +13,7 @@ const NavBar = () => {
     setNav(!nav);
   };
   return (
-    <div className="px-8 fixed z-30 bg-white w-screen flex justify-between items-center text-3xl md:text-xl 2xl:text-2xl">
+    <div className="px-8 sticky z-30 bg-white w-screen flex justify-between items-center text-3xl md:text-xl 2xl:text-2xl">
       <Link
         onClick={() => {
           setSelected("");
