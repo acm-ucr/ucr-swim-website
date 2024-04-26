@@ -15,7 +15,7 @@ const PageTitle = ({ image, title }) => {
       <Image
         src={wave}
         alt="wave bottom image"
-        className="absolute bottom-0 transform -scale-x-100 w-screen md:w-auto lg:w-screen"
+        className="absolute bottom-0 transform -scale-x-100 w-screen"
       />
     </div>
   );
