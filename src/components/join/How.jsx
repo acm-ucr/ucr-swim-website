@@ -2,75 +2,41 @@ import Image from "next/image";
 
 const How = () => {
   return (
-    <div
-      style={{
-        maxWidth: "1410px",
-        margin: "auto",
-        padding: "24px",
-        backgroundColor: "white",
-        borderRadius: "8px",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
-      <h1
-        style={{ fontSize: "24px", fontWeight: "bold", marginBottom: "16px" }}
-      >
+    <div className="max-w-7xl mx-auto p-6 bg-white rounded-lg flex flex-col">
+      <h1 className="text-2xl font-bold mb-4">
         How to Practice and Officially Become a Member:
       </h1>
 
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-        }}
-      >
-        <div style={{ flex: 1, marginBottom: "24px" }}>
+      <div className="flex flex-row justify-between items-start">
+        <div className="flex-1 mb-6">
           <Image
             src="/join/how.png"
             alt="How to join"
             width={600}
             height={400}
-            style={{ borderRadius: "8px" }}
+            className="rounded-lg"
           />
-          <h2
-            style={{
-              fontSize: "20px",
-              fontWeight: "600",
-              marginBottom: "8px",
-              marginTop: "24px",
-            }}
-          >
+          <h2 className="text-xl font-semibold mb-2 mt-6">
             2. Register for Swim Club on Highlander Link
           </h2>
-          <ol style={{ paddingLeft: "16px" }}>
-            <li>a. Click the Link above</li>
-            <li>b. Sign in with your UCR Login</li>
-            <li>c. Send a request to join &apos;Club Swim at UCR&apos;</li>
+          <ol className="pl-4 list-decimal">
+            <li>Click the Link above</li>
+            <li>Sign in with your UCR Login</li>
+            <li>Send a request to join &apos;Club Swim at UCR&apos;</li>
             <li>
-              d. You will not be approved until we see you&apos;re on our roster
-              on Do Sports Easy
+              You will not be approved until we see you&apos;re on our roster on
+              Do Sports Easy
             </li>
           </ol>
         </div>
 
-        <div style={{ flex: 1, paddingLeft: "20px" }}>
-          <h2
-            style={{
-              fontSize: "20px",
-              fontWeight: "600",
-              marginBottom: "8px",
-            }}
-          >
-            1. Join Do Sports Easy
-          </h2>
-          <ol style={{ paddingLeft: "16px" }}>
+        <div className="flex-1 pl-5">
+          <h2 className="text-xl font-semibold mb-2">1. Join Do Sports Easy</h2>
+          <ol className="pl-4 list-decimal">
             <li>Click the Link Above to be redirected to the front page</li>
             <li>
               Once you&apos;re on the front page, go ahead and click register
-              under &apos;Swim Club&apos;
+              under &lsquo;Swim Club&rsquo;
             </li>
             <li>Sign in through your UCR login</li>
             <li>
