@@ -13,7 +13,7 @@ const NavBar = () => {
     setNav(!nav);
   };
   return (
-    <div className="px-8 sticky z-30 bg-white w-screen flex justify-between items-center text-3xl md:text-xl 2xl:text-2xl">
+    <div className="px-8 sticky top-0 z-30 bg-white w-screen flex justify-between items-center text-xl md:text-xl 2xl:text-2xl">
       <Link
         onClick={() => {
           setSelected("");
@@ -23,7 +23,7 @@ const NavBar = () => {
         <Image
           src={logo}
           alt="Logo"
-          className="left-0 w-20 md:w-16 hover:opacity-60 duration-300"
+          className="left-0 w-12 md:w-16 hover:opacity-60 duration-300"
         />
       </Link>
       <div className="hidden absolute right-0 md:flex justify-evenly w-2/5">
@@ -59,6 +59,7 @@ const NavBar = () => {
             key={index}
             onClick={() => {
               setSelected(item.name);
+              handleNav();
             }}
             className={`hover:text-swim-blue-300 duration-300 border-solid font-semibold py-2 ${
               selected === item.name
@@ -71,7 +72,7 @@ const NavBar = () => {
         ))}
       </div>
       <div onClick={handleNav}>
-        <IoMdMenu className="flex md:hidden text-black hover:cursor-pointer hover:text-swim-blue-300 justify-self-end" />
+        <IoMdMenu className="text-3xl flex md:hidden text-black hover:cursor-pointer hover:text-swim-blue-300 justify-self-end" />
       </div>
     </div>
   );

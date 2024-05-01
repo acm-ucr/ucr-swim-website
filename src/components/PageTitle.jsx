@@ -3,13 +3,13 @@ import wave from "@/public/waveBottom.webp";
 
 const PageTitle = ({ image, title }) => {
   return (
-    <div className="w-full relative mt-12 md:mt-0 ">
+    <div className="w-full relative ">
       <Image
         src={image}
         alt="background image"
-        className="w-screen opacity-80 h-40 md:h-auto "
+        className="w-screen opacity-80 h-[23vh] md:h-auto object-cover "
       />
-      <p className="flex items-center justify-center absolute top-0 font-bold text-2xl md:text-5xl text-white border-swim-yellow border-r-[20px] w-1/3 h-full bg-swim-blue-200/70">
+      <p className="flex text-justify items-center justify-center absolute top-0 font-bold text-2xl md:text-5xl text-white border-swim-yellow border-r-[20px] w-1/3 h-full bg-swim-blue-200/70">
         {title}
       </p>
       <Image
