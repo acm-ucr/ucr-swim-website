@@ -9,7 +9,7 @@ const SwimOutlet = () => {
   return (
     <div className="w-full flex flex-col items-center md:h-[105vh]">
       <div className="flex items-center w-full relative">
-        <div className="flex flex-col items-center w-[30%] -rotate-90 text-nowrap pr-[10%]">
+        <div className="flex flex-col items-center md:w-[30%] w-1/4 -rotate-90 text-nowrap pr-[10%]">
           <p className="text-swim-blue-400 text-xl md:text-6xl 2xl:text-7xl">
             Arena Storefront
           </p>
@@ -18,11 +18,11 @@ const SwimOutlet = () => {
           </p>
         </div>
 
-        <div className="w-[55%]">
+        <div className="md:w-[55%] w-2/3">
           <Image
             src={SwimOutletImage}
             alt="Swim Outlet Logo"
-            className=" object-cover w-3/5"
+            className=" object-cover md:w-3/5 w-2/3"
           />
 
           <div className=" flex mt-10 w-full justify-between object-contain">
