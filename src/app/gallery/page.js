@@ -9,7 +9,7 @@ const Gallery = () => {
     <div className="w-full flex flex-col items-center">
       <PageTitle title="Gallery" image={gallery} />
 
-      <p className="w-4/5 text-4xl text-swim-blue-400 font-bold my-[10vh]">
+      <p className="w-4/5 text-2xl md:text-4xl text-swim-blue-400 font-bold md:my-[10vh] my-5">
         Check Out Our Photos
       </p>
 

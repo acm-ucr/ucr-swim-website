@@ -8,10 +8,10 @@ const Boards = () => {
     <div className="w-full flex flex-col items-center">
       <PageTitle title="Board" image={boards} />
 
-      <p className="w-4/5 text-4xl text-swim-blue-400 font-bold mt-[5vh]">
+      <p className="w-4/5 text-2xl md:text-4xl text-swim-blue-400 font-bold mt-[5vh]">
         Meet With Our Team
       </p>
-      <p className="w-4/5 text-2xl text-swim-yellow mb-[7vh] font-semibold">
+      <p className="w-4/5 text-lg md:text-2xl text-swim-yellow mb-[7vh] font-semibold">
         Boards & Coaches
       </p>
 
