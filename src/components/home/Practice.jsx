@@ -12,7 +12,7 @@ const Practice = () => {
       />
 
       <div className="w-1/2 md:pt-[8%] md:px-[6%] pt-4 px-3 pb-7 md:pb-0 text-white">
-        <p className="text-2xl md:text-7xl 2xl:text-8xl md:mb-5 mb-2 font-semibold">
+        <p className="text-2xl md:text-6xl 2xl:text-8xl md:mb-5 mb-2 font-semibold">
           Practices
         </p>
 
