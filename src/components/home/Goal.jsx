@@ -1,14 +1,30 @@
+"use client";
+import useView from "../useView";
 import Image from "next/image";
 import image1 from "@/public/home/goal.webp";
 import Link from "next/link";
+
 const Goal = () => {
+  const [inView, ref] = useView();
   return (
     <div className="w-full flex md:pb-[5%] pb-8">
-      <div className="ml-[8%] mr-[8%] md:mr-0 md:ml-[8%] justify-center flex flex-col gap-3 md:gap-5">
-        <p className="text-3xl md:text-7xl 2xl:text-8xl md:ml-10 text-swim-blue-400">
+      <div
+        ref={ref}
+        className="ml-[8%] mr-[8%] md:mr-0 md:ml-[8%] justify-center flex flex-col gap-3 md:gap-5"
+      >
+        <p
+          className={`${
+            inView && "animate-fade-right animate-once"
+          } text-3xl md:text-7xl 2xl:text-8xl md:ml-10 text-swim-blue-400`}
+        >
           Our Goal
         </p>
-        <p className="md:my-2 border-swim-yellow border-l-[5px] md:border-l-[10px] pl-[3%] text-xs md:text-xl 2xl:text-2xl font-light w-full leading-loose md:leading-loose 2xl:leading-loose">
+        <p
+          className={`${
+            inView && "animate-fade-right animate-once animate-duration-300"
+          }
+          md:my-2 border-swim-yellow border-l-[5px] md:border-l-[10px] pl-[3%] text-xs md:text-xl 2xl:text-2xl font-light w-full leading-loose md:leading-loose 2xl:leading-loose`}
+        >
           Bring students together through the sport of swimming and compete in
           competitions. While also expanding our club members&apos;
           network/connections by competing against other Universities.
@@ -23,7 +39,8 @@ const Goal = () => {
       </div>
       <Image
         src={image1}
-        className="hidden lg:block mr-[5%]"
+        className={`${inView && "animate-fade-up"}
+        hidden lg:block mr-[5%]`}
         width={500}
         height={500}
         alt="Swim image"
