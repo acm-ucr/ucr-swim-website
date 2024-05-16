@@ -6,29 +6,29 @@ import useView from "../useView";
 
 const How = () => {
   return (
-    <div className="ml-5">
-      <p
+    <div className="flex flex-col md:px-0 px-5 gap-y-2">
+      <div
         className={`${
           useView && "animate-fade-right animate-delay-[100ms]"
-        } text-4xl text-swim-blue-400 font-bold`}
+        } md:text-4xl text-2xl text-swim-blue-400 font-bold mb-5`}
       >
         How To Practice and Officially become a member:
-      </p>
-      <div className="md:flex md:flex-col">
+      </div>
+      <div className="md:flex md:flex-col md:text-xl text-lg">
         <div
           className={`${
             useView && "animate-fade-right animate-delay-[150ms]"
-          } md:flex md:flex-row items-center`}
+          } md:flex md:flex-row gap-x-4`}
         >
           <Image
             src={image1}
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             alt="How image instructions"
           />
-          <p
+          <div
             className={`${useView && "animate-fade-right animate-delay-[300ms]"}
-            text-1.5xl mt-5 mb-5 ml-10`}
+            `}
           >
             1. Join{" "}
             <Link
@@ -38,24 +38,26 @@ const How = () => {
             >
               Do Sports Easy
             </Link>
-            <br />
             <div className="pl-4">
-              a. Click on the Link Above to be redirected to the front page
-              <div />
-              b. Once you&apos;re on the front page, go ahead and click register
-              under &quot;Swim Club&quot;
-              <div />
-              c. Sign in through your UCR Login
-              <div />
-              d. Fill out the necessary personal information and complete the
-              liability waiver
+              <div>
+                a. Click on the Link Above to be redirected to the front page
+              </div>
+              <div>
+                b. Once you&apos;re on the front page, go ahead and click
+                register under &quot;Swim Club&quot;
+              </div>
+              <div>c. Sign in through your UCR Login</div>
+              <div>
+                d. Fill out the necessary personal information and complete the
+                liability waiver
+              </div>
             </div>
-          </p>
+          </div>
         </div>
         <div>
-          <p
+          <div
             className={`${useView && "animate-fade-left animate-delay-150"}
-            text-1.5xl mt-10 mb-5`}
+             mt-10 mb-5`}
           >
             2. Register for Swim Club on{" "}
             <Link
@@ -65,7 +67,6 @@ const How = () => {
             >
               Highlander Link
             </Link>
-            <br />
             <div className="pl-4">
               a. Click on the link above
               <div />
@@ -76,7 +77,7 @@ const How = () => {
               d. You will not be approved until we see you&apos;re on our roster
               on Do Easy Sports
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </div>
