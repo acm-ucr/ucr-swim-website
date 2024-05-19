@@ -25,7 +25,7 @@ const Landing = () => {
       <Image
         src={image2}
         alt="Background image 2"
-        className="w-screen md:top-[85%] top-[88%] absolute transform -scale-x-100"
+        className="w-screen -bottom-1 absolute transform -scale-x-100"
       />
     </div>
   );
