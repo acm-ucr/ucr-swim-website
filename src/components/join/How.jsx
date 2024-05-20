@@ -29,7 +29,7 @@ const How = () => {
           <div
             className={`${
               useView && "animate-fade-right animate-delay-[300ms]"
-            } mt-5 md:text-lg text-sm`}
+            } mt-5 md:text-lg text-xs`}
           >
             1. Join{" "}
             <Link
@@ -59,7 +59,7 @@ const How = () => {
           <div
             className={`${
               useView && "animate-fade-left animate-delay-150"
-            } mt-5 md:text-lg text-sm`}
+            } mt-5 md:text-lg text-xs`}
           >
             2. Register for Swim Club on{" "}
             <Link
