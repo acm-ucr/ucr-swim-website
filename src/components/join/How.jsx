@@ -6,7 +6,7 @@ import useView from "../useView";
 
 const How = () => {
   return (
-    <div className="flex flex-col md:px-0 px-5 gap-y-2">
+    <div className="flex flex-col px-5 self-center py-[2%]">
       <div
         className={`${
           useView && "animate-fade-right animate-delay-[100ms]"
@@ -27,12 +27,13 @@ const How = () => {
             alt="How image instructions"
           />
           <div
-            className={`${useView && "animate-fade-right animate-delay-[300ms]"}
-            `}
+            className={`${
+              useView && "animate-fade-right animate-delay-[300ms]"
+            } mt-5 md:text-lg text-xs`}
           >
             1. Join{" "}
             <Link
-              className="text-swim-blue-300 underline mr-2"
+              className="text-swim-blue-300 underline"
               href="https://recreation.ucr.edu/competitive-sports/do-sports-easy"
               target="_blank"
             >
@@ -56,26 +57,26 @@ const How = () => {
         </div>
         <div>
           <div
-            className={`${useView && "animate-fade-left animate-delay-150"}
-             mt-10 mb-5`}
+            className={`${
+              useView && "animate-fade-left animate-delay-150"
+            } mt-5 md:text-lg text-xs`}
           >
             2. Register for Swim Club on{" "}
             <Link
-              className="text-swim-blue-300 underline mr-2"
+              className="text-swim-blue-300 underline"
               href="https://highlanderlink.ucr.edu/organization/swimclubatucr"
               target="_blank"
             >
               Highlander Link
             </Link>
             <div className="pl-4">
-              a. Click on the link above
-              <div />
-              b. Sign in through your UCR Login
-              <div />
-              c. Send a request to join &quot;Club Swim at UCR&quot;
-              <div />
-              d. You will not be approved until we see you&apos;re on our roster
-              on Do Easy Sports
+              <div>a. Click on the link above</div>
+              <div>b. Sign in through your UCR Login</div>
+              <div>c. Send a request to join &quot;Club Swim at UCR&quot;</div>
+              <div>
+                d. You will not be approved until we see you&apos;re on our
+                roster on Do Easy Sports
+              </div>
             </div>
           </div>
         </div>

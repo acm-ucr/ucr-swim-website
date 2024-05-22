@@ -38,12 +38,12 @@ const Info = () => {
         >
           <InfoCard
             text="Follow our Instagram for general news"
-            link="https://discord.gg/3D25jBTyzk"
+            link="https://www.instagram.com/ucrclubswim/"
             image={image1}
           />
           <InfoCard
             text="Join our Discord for more indepth details about competitions"
-            link="https://www.instagram.com/ucrclubswim/"
+            link="https://discord.gg/3D25jBTyzk"
             image={image2}
           />
         </div>
@@ -54,7 +54,10 @@ const Info = () => {
           "animate-fade-up animate-duration-[800ms] animate-ease-in-out"
         }`}
       >
-        <Button link="/join" text="Member Info Form" />
+        <Button
+          link="https://docs.google.com/forms/d/1eVhGvKFBgVIQICbf83hUOcnGMz6jaWLEllglrM0l9cU/edit"
+          text="Member Info Form"
+        />
       </div>
     </div>
   );

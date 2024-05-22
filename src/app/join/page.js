@@ -6,7 +6,7 @@ import join from "@/public/join/join.webp";
 
 const Join = () => {
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col">
       <PageTitle title="Join" image={join} />
       <How />
       <Welcome />
