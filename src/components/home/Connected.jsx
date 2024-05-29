@@ -1,18 +1,33 @@
+"use client";
+import useView from "../useView";
 import { iconLinks } from "../../data/iconLinks";
 import JoinIcon from "./JoinIcon";
 import Button from "../Button";
 
 const Connected = () => {
+  const [inView, ref] = useView();
   return (
-    <div className="flex items-center flex-col mt-[10%] w-full">
-      <p className="text-swim-blue-400 text-3xl md:text-7xl 2xl:text-8xl pt-5">
+    <div ref={ref} className="flex items-center flex-col mt-[10%] w-full">
+      <p
+        className={`${
+          inView && "animate-fade-up"
+        } text-swim-blue-400 text-3xl md:text-7xl 2xl:text-8xl pt-5`}
+      >
         Stay Connected
       </p>
-      <p className="text-swim-yellow mb-[2%] text-sm md:text-2xl 2xl:text-3xl">
+      <p
+        className={`${
+          inView && "animate-fade-down animate-delay-200"
+        } text-swim-yellow mb-[2%] text-sm md:text-2xl 2xl:text-3xl`}
+      >
         Lorem ipsum dolor sit amet
       </p>
 
-      <div className="md:grid md:grid-cols-5 md:my-[3%] my-5 w-3/4 flex flex-wrap justify-center ">
+      <div
+        className={`${
+          inView && "animate-shake animate-delay-500"
+        } md:grid md:grid-cols-5 md:my-[3%] my-5 w-3/4 flex flex-wrap justify-center`}
+      >
         {iconLinks.map((item, index) => (
           <JoinIcon
             icon={item.icon}

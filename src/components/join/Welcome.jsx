@@ -4,7 +4,7 @@ const Welcome = () => {
       <p className="text-swim-yellow text-2xl md:text-3xl font-semibold mb-2">
         WELCOME
       </p>
-      <p className="text-white w-3/5 md:text-center text-[10px] md:text-base">
+      <p className="text-white w-3/5 md:text-center md:text-base text-md">
         Now you&apos;re officially a part of Swim Club, you&apos;re able to swim
         at our practices! However, be sure to bring your R&apos;Card to every
         practice. You won&apos;t be able to swim without it!
