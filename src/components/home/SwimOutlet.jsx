@@ -12,7 +12,7 @@ const SwimOutlet = () => {
   const [inView, ref] = useView();
 
   return (
-    <div className="w-full flex flex-col items-center md:h-[105vh]">
+    <div className="w-full flex flex-col items-center md:h-full">
       <div ref={ref} className="flex items-center w-full relative">
         <div className="flex flex-col items-center md:w-[30%] w-1/4 -rotate-90 text-nowrap pr-[10%]">
           <p
