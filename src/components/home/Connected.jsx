@@ -20,7 +20,7 @@ const Connected = () => {
           inView && "animate-fade-down animate-delay-200"
         } text-swim-yellow mb-[2%] text-sm md:text-2xl 2xl:text-3xl`}
       >
-        Lorem ipsum dolor sit amet
+        Get involved with UCR Swim Club!
       </p>
 
       <div
