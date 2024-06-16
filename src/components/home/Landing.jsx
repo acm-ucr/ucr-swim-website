@@ -16,8 +16,8 @@ const Landing = () => {
           UCR Club Swim
         </p>
         <p className="font-semibold text-white text-xs md:text-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod
+          Uniting swimmers together here at UC Riverside and competing in
+          competitions.
         </p>
         <Button link="/join" text="Join" color="text-swim-blue-400" />
       </div>

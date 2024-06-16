@@ -19,7 +19,7 @@ const Info = () => {
               inView && "animate-fade-right animate-duration-[800ms]"
             } text-swim-yellow text-lg md:text-2xl`}
           >
-            Lorem ipsum dolor sit
+            Get Involved
           </p>
           <p
             className={`${
