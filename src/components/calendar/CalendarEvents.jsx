@@ -14,9 +14,6 @@ const CalendarEvents = () => {
   const [events, setEvents] = useState([]);
   const [date, setDate] = useState(new Date());
   const [selectedEvent, setSelectedEvent] = useState(null);
-
-  // const [selectedEvent, setSelectedEvent] = useState(null);
-
   useEffect(() => {
     const startDate = new Date(
       new Date().getTime() - 60 * 60 * 24 * 7 * 10 * 1000
@@ -98,6 +95,7 @@ const CalendarEvents = () => {
         {selectedEvent && (
           <Modal setEvents={setSelectedEvent} events={selectedEvent} />
         )}
+        {console.log(selectedEvent)}
       </div>
     </section>
   );
