@@ -1,47 +1,37 @@
 export const BOARDS = [
   {
-    name: "Evan Littlecat",
+    name: "Ethan Tran",
     position: "President",
     img: "/board/temp.webp",
   },
   {
-    name: "Evan Littlecat",
-    position: "President",
+    name: "Louanne Buan",
+    position: "Vice President",
     img: "/board/temp.webp",
   },
   {
-    name: "Evan Littlecat",
-    position: "President",
+    name: "Willa Ralston",
+    position: "Treasurer",
     img: "/board/temp.webp",
   },
   {
-    name: "Evan Littlecat",
-    position: "President",
+    name: "Kai Iwamoto",
+    position: "Events Coordinator",
     img: "/board/temp.webp",
   },
   {
-    name: "Evan Littlecat",
-    position: "President",
+    name: "Amy Ma",
+    position: "Co-Publicity",
     img: "/board/temp.webp",
   },
   {
-    name: "Evan Littlecat",
-    position: "President",
+    name: "Adrianne Nguyen",
+    position: "Co-Publicity",
     img: "/board/temp.webp",
   },
   {
-    name: "Evan Littlecat",
-    position: "President",
-    img: "/board/temp.webp",
-  },
-  {
-    name: "Evan Littlecat",
-    position: "President",
-    img: "/board/temp.webp",
-  },
-  {
-    name: "Evan Littlecat",
-    position: "President",
+    name: "Jacky Xing",
+    position: "Coach",
     img: "/board/temp.webp",
   },
 ];

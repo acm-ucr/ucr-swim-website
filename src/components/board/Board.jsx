@@ -20,7 +20,7 @@ const Board = ({ picture, name, position }) => {
         <p
           className={`${
             inView && "animate-fade-right"
-          } bg-swim-blue-100 w-4/5 p-1 `}
+          } bg-swim-blue-100 w-11/12 p-1 `}
         >
           {position}
         </p>
@@ -28,7 +28,7 @@ const Board = ({ picture, name, position }) => {
           <p
             className={`${
               inView && "animate-fade-left"
-            } bg-swim-blue-200 text-white p-1 -translate-y-1 w-4/5`}
+            } bg-swim-blue-200 text-white p-1 -translate-y-1 w-5/6`}
           >
             {name}
           </p>
