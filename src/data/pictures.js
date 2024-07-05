@@ -5,23 +5,23 @@ import guys from "@/public/gallery/guys.webp";
 
 export const PICTURES = [
   {
-    text: "Fall",
-    link: "https://www.google.com/",
+    text: "Spring 2024",
+    link: "https://photos.app.goo.gl/fHYcSYyFbs6HiF4h7",
     image: group,
   },
   {
-    text: "Winter",
-    link: "https://www.google.com/",
+    text: "Winter 2024",
+    link: "https://photos.app.goo.gl/xkkRjYkZfwWQyN8L7",
     image: food,
   },
   {
-    text: "Spring",
-    link: "https://www.google.com/",
+    text: "Fall 2023",
+    link: "https://photos.app.goo.gl/Xnm8C9voNiVWsQKx6",
     image: intersquad,
   },
   {
-    text: "Summer",
-    link: "https://www.google.com/",
+    text: "2022 & 2023",
+    link: "https://photos.app.goo.gl/Lerr8NtbkRRoHQem6",
     image: guys,
   },
 ];
