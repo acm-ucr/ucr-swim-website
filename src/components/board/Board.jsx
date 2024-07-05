@@ -6,13 +6,15 @@ const Board = ({ picture, name, position }) => {
 
   return (
     <div className={`w-52 justify-self-center`}>
-      <Image
-        src={picture}
-        alt="picture"
-        className="aspect-square"
-        width={500}
-        height={500}
-      />
+      {picture && (
+        <Image
+          src={picture}
+          alt="picture"
+          className="aspect-square"
+          width={500}
+          height={500}
+        />
+      )}
       <div
         ref={ref}
         className="w-full -translate-y-5 text-nowrap text-xl text-center"
