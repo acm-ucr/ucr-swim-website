@@ -12,8 +12,9 @@ const urbanist = Urbanist({
 });
 
 export const metadata = {
-  title: "UCR Swim",
-  description: "UCR Swim Club",
+  title: "UCR Swim Club",
+  description:
+    "Uniting swimmers together here at UC Riverside and competing in competitions.",
 };
 
 export default function RootLayout({ children }) {
