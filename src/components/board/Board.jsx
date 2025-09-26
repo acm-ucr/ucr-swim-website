@@ -17,12 +17,12 @@ const Board = ({ picture, name, position }) => {
       )}
       <div
         ref={ref}
-        className="w-full -translate-y-5 text-nowrap text-xl text-center"
+        className="w-full -translate-y-5 text-nowrap text-lg text-center"
       >
         <p
           className={`${
             inView && "animate-fade-right"
-          } bg-swim-blue-100 w-11/12 p-1 `}
+          } bg-swim-blue-100 w-11/12 p-1`}
         >
           {position}
         </p>
