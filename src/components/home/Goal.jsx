@@ -1,7 +1,7 @@
 "use client";
 import useView from "../useView";
 import Image from "next/image";
-import image1 from "@/public/home/goal.png";
+import image1 from "@/public/home/goal.webp";
 import Link from "next/link";
 
 const Goal = () => {
