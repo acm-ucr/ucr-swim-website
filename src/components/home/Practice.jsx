@@ -28,15 +28,8 @@ const Practice = () => {
         </p>
 
         <div className="md:flex md:justify-between w-full">
-          <p>Tuesday and Thursday </p>
-          <p className=" text-swim-yellow font-bold md:mb-5">
-            7:00 pm - 8:20 pm
-          </p>
-        </div>
-
-        <div className="md:flex md:justify-between w-full">
-          <p> Sunday </p>
-          <p className=" text-swim-yellow font-bold">6:00 pm - 7:20 pm</p>
+          <p>Mondays, Wednesdays, & Thursdays </p>
+          <p className=" text-swim-yellow font-bold md:mb-5">6:30pm - 8:00pm</p>
         </div>
       </div>
       <Image

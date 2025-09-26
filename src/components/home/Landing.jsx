@@ -13,7 +13,7 @@ const Landing = () => {
       />
       <div className="flex justify-center flex-col w-1/2 h-full bg-swim-blue-200/70 top-0 absolute pl-[5%] gap-y-0.2 md:gap-y-0">
         <p className="font-bold text-white text-xl md:text-6xl mb-4">
-          UCR Club Swim
+          Club Swim at UCR
         </p>
         <p className="font-semibold text-white text-xs md:text-2xl">
           Uniting swimmers together here at UC Riverside and competing in

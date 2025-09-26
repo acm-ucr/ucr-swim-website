@@ -1,4 +1,4 @@
-name: UCR Swim Website
+name: Club Swim at UCR Website
 on:
   pull_request:
     branches: [main, dev]
