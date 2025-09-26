@@ -55,7 +55,7 @@ const Info = () => {
         }`}
       >
         <Button
-          link="https://docs.google.com/forms/d/1eVhGvKFBgVIQICbf83hUOcnGMz6jaWLEllglrM0l9cU/edit"
+          link="https://forms.gle/yjKzaGJhLXYx9nYk6"
           text="Member Info Form"
         />
       </div>

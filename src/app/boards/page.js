@@ -12,7 +12,7 @@ const Boards = () => {
         Meet With Our Team
       </p>
       <p className="w-4/5 text-lg md:text-2xl text-swim-yellow mb-[7vh] font-semibold">
-        Boards & Coaches
+        Board
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-[75%]">
