@@ -12,7 +12,7 @@ const urbanist = Urbanist({
 });
 
 export const metadata = {
-  title: "UCR Swim Club",
+  title: "Club Swim at UCR",
   description:
     "Uniting swimmers together here at UC Riverside and competing in competitions.",
 };
