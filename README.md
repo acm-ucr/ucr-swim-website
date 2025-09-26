@@ -1,4 +1,4 @@
-# UCR Swim Website
+# Club Swim at UCR Website
 
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -11,11 +11,11 @@
 
 ## Figma
 
-[UCR Swim Website Design File](https://www.figma.com/file/AJJFv2qsWeV9vi9HeAcTxB/UCR-Swim-Club?type=design&node-id=123%3A2&mode=design&t=6kH3k40eiarwvXpx-1)
+[Club Swim at UCR Website Design File](https://www.figma.com/file/AJJFv2qsWeV9vi9HeAcTxB/UCR-Swim-Club?type=design&node-id=123%3A2&mode=design&t=6kH3k40eiarwvXpx-1)
 
 ## Node.js
 
-The UCR Swim Official Website runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
+The Club Swim at UCR Official Website runs on Node.js Version 20.10.0 and higher. Please ensure you have Node.js installed via the [official website](https://nodejs.org/en).
 
 ## Next.js
 

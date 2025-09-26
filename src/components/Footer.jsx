@@ -20,7 +20,7 @@ const Footer = () => {
           href="/"
           className="hover:opacity-80 md:text-5xl text-xl font-bold pb-[3%] duration-300 ease-in-out"
         >
-          UCR CLUB SWIM
+          CLUB SWIM AT UCR
         </Link>
         <div className="flex font-bold items-end">
           <div className="flex flex-col items-end border-r-white md:border-r-[10px] border-r-[6px] md:pr-5 pr-3 mr-5">
