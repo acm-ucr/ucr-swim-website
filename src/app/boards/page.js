@@ -1,5 +1,5 @@
 import Board from "@/components/board/Board";
-import boards from "@/public/board/boards.webp";
+import boards from "@/public/board/header2.webp";
 import PageTitle from "@/components/PageTitle";
 import { BOARDS } from "@/data/board";
 
